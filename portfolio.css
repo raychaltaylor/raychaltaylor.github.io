@@ -1,0 +1,99 @@
+.navbar-brand {
+    font-family: Girassol;
+    font-size: 32px;
+}
+.nav-item {
+    font-family: Courier Prime;
+    font-size: 20px;
+}
+/* #mainNav{
+    background-color: rgba(227,227,227,0.3);
+} */
+body{
+    background: url(https://images.unsplash.com/photo-1535350356005-fd52b3b524fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    font-family: Baskervville;
+    padding-top: 75px;
+}
+li:hover{
+    background-color:  #a3256f;
+}
+.navbar.scrolled {
+    background: lightgray;
+    transition: 500ms;
+}
+
+#Contact{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+footer{
+    background-color: rgba(227,227,227,0.4);
+    text-align: center;
+    font-size: 10px;
+}
+
+#Raychal{
+    padding-top: 20px;
+}
+
+.IntroFont{
+    font-family: Playfair Display SC;
+}
+
+h1{
+    font-family: Playfair Display SC;
+}
+
+#MyInfo{
+    background-color: rgba(227,227,227,0.7);
+}
+
+#paragraph{
+    background-color: rgba(227,227,227,0.7);
+}
+
+#experience{
+    line-height: 01;
+	width: 1000px;
+	margin: 2% 5%;
+    padding-left: 5px;
+    border: 1px solid darkgray;
+    background-color: rgba(227,227,227,0.7);
+}
+
+.heading1{
+    font-family: Courier Prime;
+    color: #a3256f;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1;
+    height: 10px;
+    padding-bottom: 20px;
+}
+
+.heading2{
+    font-family: Courier Prime;
+}
+
+#par1{
+    font-family: Baskervville;
+    border-left: 1px solid darkgray;
+    padding-left: 8px;
+    padding-right: 10px;
+    line-height: 1;
+}
+
+#par2{
+    font-family: Baskervville;
+    line-height: 1;
+}
+
+#skills{
+    background-color: rgba(227,227,227,0.7);
+}
+
+#references{
+    padding-top: 50px;
+}
