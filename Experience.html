@@ -106,15 +106,15 @@
     <div class="row align-items-center justify-items-center">
         <div class="col-md-12 text-center" id="paragraph">
              <h1>Want to know more? Let's Chat!</h1>
-                 <label>First Name: <input type="text" name="FirstName" required placeholder="John"></label>
-                 <label>Last Name: <input type="text" name="LastName" placeholder="Smith" required></label>
-             <form>
+             <form method="post" action="contact.php">
+                 <label>Full Name: <input type="text" name="FirstName" required placeholder="John Smith"></label>
+             </form>
+             <form method="post" action="contact.php">
                  <label>Email: <input type="Email" name="Email" required placeholder="Your Email"></label>
-                 <label>Company: <input type="text" name="text"required placeholder="Company Name"></label>
              </form>
-             <form>
-                 <label>Contact Phone: <input type="tel" name="tel" required placeholder="111-111-1111"></label>
-             </form>
+             <form method="post" action="contact.php">
+                <label>Message: <textarea rows="3" cols="25" placeholder="Please provide any more details you'd like me to know!"></textarea></label>
+            </form>
              <input type="Submit">
          </div>
      </div>
