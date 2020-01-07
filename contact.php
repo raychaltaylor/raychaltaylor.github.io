@@ -1,4 +1,10 @@
 <?php
+if($_POST["message"]) {
+    mail("raychal.taylor@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
+<?php
 if($_POST["submit"]) {
     $recipient="raychal.taylor@gmail.com";
     $subject="Form to email message";
