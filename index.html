@@ -72,7 +72,7 @@
                 <h5>On a more personal note...</h5>
                 <p>I am twenty-four years young and have a lot of ambition. I am always looking for new things to learn. I am currently taking up knitting, as well as becoming more proficient in other coding languages: Python, SQL, C++, etc.</p>
                 <p>I love animals. I have two Netherland Dwarf rabbits as well as a Lab/Cattle Dog mix puppy. In my spare time, I also like to read, write, and sew.</p>
-                <p>Please feel free to look at more of my site. Use the <a href="Contact.html">Contact</a> link or the form below to reach out!</p>
+                <p>Please feel free to look at more of my site. Use the <a href="Contact.html">Contact</a> link or the items below to reach out!</p>
             </div>
             <div class="col-md-3">
                 <img class="img-fluid" src="girls2.jpg" alt="">
@@ -83,20 +83,13 @@
         </div>
     </section>  
 
-    <section class="container-fluid px-0" id="Contact">
-       <div class="row align-items-center justify-items-center">
-           <div class="col-md-12 text-center" id="paragraph">
-                <h1>Want to know more? Let's Chat!</h1>
-                    <label>First Name: <input type="text" name="FirstName" required placeholder="John"></label>
-                    <label>Last Name: <input type="text" name="LastName" placeholder="Smith" required></label>
-                <form>
-	                <label>Email: <input type="Email" name="Email" required placeholder="Your Email"></label>
-	                <label>Company: <input type="text" name="text"required placeholder="Company Name"></label>
-                </form>
-                <form>
-                    <label>Contact Phone: <input type="tel" name="tel" required placeholder="111-111-1111"></label>
-                </form>
-                <input type="Submit">
+    <section class="container-fluid px-0" id="MyInfo">
+        <div class="row align-items-center justify-items-center">
+            <div class="col-md-12 text-center">
+                <h3 class="IntroFont">Let's Chat!</h3>
+                <p><i class="fas fa-envelope"></i><a href="mailto:raychal.taylor@gmail.com"> Email Me </a><i class="fas fa-envelope"></i></p>
+                <p><i class="fas fa-mobile-alt" id="phone"></i><a href="" onclick="showNumber()"> Call or Text Me </a><i class="fas fa-mobile-alt"></i></p>
+                <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/Raychal-taylor/" target="_blank"> Find Me On LinkedIn </a><i class="fab fa-linkedin"></i></p>
             </div>
         </div>
     </section>
@@ -105,7 +98,6 @@
     <p>Background Photo by: JJ Ying from Unsplash</p>
 </footer>
 
-<script src="portfoliohome.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -117,6 +109,10 @@
         })
     })
 </script>
-
+<script>
+    function showNumber(){
+        alert("231-730-2318");
+    }
+</script>
 </body>
 </html>
