@@ -23,11 +23,6 @@ li:hover{
     transition: 500ms;
 }
 
-#Contact{
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
 footer{
     background-color: rgba(227,227,227,0.4);
     text-align: center;
@@ -48,6 +43,8 @@ h1{
 
 #MyInfo{
     background-color: rgba(227,227,227,0.7);
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 #paragraph{
@@ -92,6 +89,10 @@ h1{
 
 #skills{
     background-color: rgba(227,227,227,0.7);
+}
+
+#references{
+    padding-top: 50px;
 }
 
 .navbar-expand-lg{
