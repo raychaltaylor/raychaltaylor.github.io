@@ -37,23 +37,26 @@
             </ul>
         </div>
       </nav>
+      <section class="container-fluid px-0">
+          <div class="row-align-items-center justify-items-center">
+              <div class="col-md-12 text-center">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFXeoiY9O51C4RUpeCCtoOQPOPxFgF0EIcuaTtLxjF2Cm2LQ/viewform?embedded=true" width="400" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+              </div>
+        </div>
+      </section>
       <section class="container-fluid px-0" id="MyInfo">
         <div class="row align-items-center justify-items-center">
             <div class="col-md-12 text-center">
-                <h1>Let's Chat!</h1>
-                <h3>Email: raychal.taylor@gmail.com</h3>
-                <h3>Cell: (231)-730-2318</h3>
+                <h3 class="IntroFont">Let's Chat!</h3>
+                <p><i class="fas fa-envelope"></i><a href="mailto:raychal.taylor@gmail.com"> Email Me </a><i class="fas fa-envelope"></i></p>
+                <p><i class="fas fa-mobile-alt" id="phone"></i><a href="" onclick="showNumber()"> Call or Text Me </a><i class="fas fa-mobile-alt"></i></p>
+                <p><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/Raychal-taylor/" target="_blank"> Find Me On LinkedIn </a><i class="fab fa-linkedin"></i></p>
             </div>
         </div>
     </section>
-
- <footer>
+<footer>
     <p>Background Photo by: JJ Ying from Unsplash</p>
 </footer>
-<script src="portfoliohome.js" type="text/javascript"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 <script>
     $(function(){
@@ -63,6 +66,10 @@
         })
     })
 </script>
-
+<script>
+    function showNumber(){
+        alert("231-730-2318");
+    }
+</script>
 </body>
 </html>
